@@ -1,5 +1,7 @@
 #include <Python.h>
 
+// fputs() function writtin in C for python-land consumption
+
 static PyObject *method_fputs(PyObject *self, PyObject *args) {
     char *str, *filename = NULL;
     int bytes_copied = -1;
